@@ -9,7 +9,7 @@
     > - Converted Animal class to an interface as there are no
     common methods to be abstracted and there is no current 
     requirement to instantiate an object of class Animal.
-
+    
 2. Now, we have 2 special kinds of birds: the Duck and the Chicken... Can you
    implement them to make their own special sound?
     * A duck says: “Quack, quack”
@@ -31,4 +31,23 @@
     > - Rooster is a specific type of Chicken.
     > - Without Inheritance, we can create Rooster as a separate class that implements the Animal interface with 
     extra methods that's specific to Chickens/Roosters. This would mean re-implementing methods in Bird and Chicken
-    classes.   
+    classes.
+
+4. Can you model a parrot? We are specifically interested in three parrots, one that
+   lived in a house with dogs one in a house with cats, the other lived on a farm next to
+   the rooster.
+   * A parrot living with dogs says: “Woof, woof”
+   * A parrot living with cats says: “Meow”
+   * A parrot living near the rooster says: “Cock-a-doodle-doo”
+   * How do you keep the parrot maintainable? What if we need another parrot
+   lives near a Duck? Or near a phone that rings frequently?
+   > - Created test cases for the requirement
+   > - Created a Dog class & a cat class
+   > - Created a Parrot with private constructors and static method getParrotThatLivesWith, which accepts any class 
+   that implements Singable interface.
+   > - This would allow us to create parrots that make various sounds without having to extend or make changes to 
+   the class itself.
+   > - Downside of this is that an instance of a class is required to create a Parrot. If we don't want to create a 
+   new Dog, Cat or Rooster - then we could consider passing a sound to the parrot while instantiating it (with constructor)
+   or making the sound as a static variable in the classes and accessing it when creating a Parrot class.
+ 

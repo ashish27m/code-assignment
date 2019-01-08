@@ -1,11 +1,9 @@
 package com.singtel.codeassignment;
 
-public interface Animal {
-	
+public interface Animal extends Singable {
+
 	String walk();
 
 	String fly();
-
-	String sing();
 
 }
