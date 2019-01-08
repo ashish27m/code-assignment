@@ -78,4 +78,11 @@ B)
     * A butterfly can fly
     * A butterfly does not make a sound
     > - Implemented Butterfly class with simple unit tests.
-   
+ 
+ 2. Can you optimize your model to account for the metamorphosis from caterpillar to
+    butterfly?
+    * A caterpillar cannot fly
+    * A caterpillar can walk (crawl)
+    > - Implemented a Caterpillar Class with simple unit tests.
+    > - Implemented metamorphize method which returns a Butterfly.
+  
