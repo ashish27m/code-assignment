@@ -50,4 +50,11 @@
    > - Downside of this is that an instance of a class is required to create a Parrot. If we don't want to create a 
    new Dog, Cat or Rooster - then we could consider passing a sound to the parrot while instantiating it (with constructor)
    or making the sound as a static variable in the classes and accessing it when creating a Parrot class.
- 
+
+5. In addition to the birds, can you model a fish?
+    * Fishes don’t sing
+    * Fishes don’t walk
+    * Fishes can swim
+    > - Created a new interface Swimmable
+    > - Created a Fish class with unit tests.
+   

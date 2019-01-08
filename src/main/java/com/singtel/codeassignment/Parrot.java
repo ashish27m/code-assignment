@@ -1,5 +1,7 @@
 package com.singtel.codeassignment;
 
+import com.singtel.codeassignment.behaviour.Singable;
+
 public class Parrot extends Bird {
 
     private String song;
