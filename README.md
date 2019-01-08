@@ -71,5 +71,11 @@ B)
 3. Dolphins are not exactly fish, yet, they are good swimmers
    * Can you model a dolphin that swims without inheriting from a fish class?
    * How do you avoid duplicating code or introducing unneeded overhead
-   > - Implemented Dolphin class be implementing SwimmingAnimal Interface instead of extending from Fish.
+   > - Implemented Dolphin class be implementing Swimmable Interface instead of extending from Fish.
  
+ D)
+ 1. Can you model a butterfly?
+    * A butterfly can fly
+    * A butterfly does not make a sound
+    > - Implemented Butterfly class with simple unit tests.
+   
