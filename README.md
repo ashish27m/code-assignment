@@ -1,5 +1,6 @@
 # code-assignment
 
+A)
 1. Can you implement the sing() method for the bird?
     * How did you unit test it?
     > - Implemented unit tests for methods in Bird class. 
@@ -51,10 +52,18 @@
    new Dog, Cat or Rooster - then we could consider passing a sound to the parrot while instantiating it (with constructor)
    or making the sound as a static variable in the classes and accessing it when creating a Parrot class.
 
-5. In addition to the birds, can you model a fish?
+B)
+1. In addition to the birds, can you model a fish?
     * Fishes don’t sing
     * Fishes don’t walk
     * Fishes can swim
     > - Created a new interface Swimmable
     > - Created a Fish class with unit tests.
    
+2. Can you specialize the fish as a Shark and as a Clownfish?
+   * Sharks are large and grey
+   * Clownfish are small and colourful (orange)
+   * Clownfish make jokes
+   * Sharks eat other fish
+   > - Implemented Shark and Clownfish class as a sub-class of Fish.
+   > - Implemented unit tests.
