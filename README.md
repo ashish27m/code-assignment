@@ -18,9 +18,17 @@
     * A chicken cannot fly (assumption: its wings are clipped but ignore that)
    > - Added two new classes - Duck and Chicken
    > - Sing method was overridden to make sounds specific to these birds.
-   > - Assuming that bird sounds and bird singing is the same thing.
    > - Added swim method to Duck.
-   > - Swim method is currently specific to Duck. No need to extract into a separate interface.
    > - Added unit tests for Chicken and Duck.
    
-   
+3. Now how would you model a rooster?
+    * A rooster says: “Cock-a-doodle-doo”
+    * How is the rooster related to the chicken?
+    * Can you think of other ways to model a rooster without using inheritance?
+    > - Created test case for new requirement.
+    > - Created a new Rooster class by extending Chicken class.
+    >   - Assumption: Chicken refers to the species as a whole and Rooster is a type of Chicken.
+    > - Rooster is a specific type of Chicken.
+    > - Without Inheritance, we can create Rooster as a separate class that implements the Animal interface with 
+    extra methods that's specific to Chickens/Roosters. This would mean re-implementing methods in Bird and Chicken
+    classes.   
