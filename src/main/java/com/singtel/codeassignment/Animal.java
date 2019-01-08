@@ -1,8 +1,11 @@
 package com.singtel.codeassignment;
 
-public class Animal {
-	void walk() {
-        System.out.println("I am walking");
-    }
+public interface Animal {
+	
+	String walk();
+
+	String fly();
+
+	String sing();
 
 }
