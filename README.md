@@ -86,3 +86,12 @@ B)
     > - Implemented a Caterpillar Class with simple unit tests.
     > - Implemented metamorphize method which returns a Butterfly.
   
+  E)
+  
+  1. Can you share the code to count:
+      * how many of these animals can fly?
+      * how many of these animals can walk?
+      * how many of these animals can sing?
+      * how many of these animals can swim?
+      > - Implemented in Solution class.
+      

@@ -1,6 +1,6 @@
 package com.singtel.codeassignment.behaviour;
 
-public interface Walkable {
+public interface Walkable extends Animal{
 	
 	String walk();
 
