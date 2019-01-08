@@ -2,6 +2,9 @@ package com.singtel.codeassignment;
 
 import org.junit.Test;
 
+import com.singtel.codeassignment.models.Fish;
+import com.singtel.codeassignment.models.Shark;
+
 import static org.junit.Assert.assertEquals;
 
 public class SharkTest {

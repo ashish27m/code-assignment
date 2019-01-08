@@ -1,4 +1,4 @@
-package com.singtel.codeassignment;
+package com.singtel.codeassignment.models;
 
 import com.singtel.codeassignment.behaviour.Walkable;
 

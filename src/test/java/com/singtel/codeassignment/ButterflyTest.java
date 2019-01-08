@@ -2,6 +2,8 @@ package com.singtel.codeassignment;
 
 import org.junit.Test;
 
+import com.singtel.codeassignment.models.Butterfly;
+
 import static org.junit.Assert.assertEquals;
 
 public class ButterflyTest {

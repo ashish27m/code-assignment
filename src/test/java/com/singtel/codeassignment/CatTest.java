@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import com.singtel.codeassignment.models.Cat;
+
 public class CatTest {
 	
 	private Cat cat;

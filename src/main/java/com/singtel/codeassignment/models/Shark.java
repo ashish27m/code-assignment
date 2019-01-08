@@ -1,4 +1,4 @@
-package com.singtel.codeassignment;
+package com.singtel.codeassignment.models;
 
 public class Shark  extends Fish {
 

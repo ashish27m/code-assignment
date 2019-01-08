@@ -4,23 +4,28 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import com.singtel.codeassignment.models.Cat;
+import com.singtel.codeassignment.models.Dog;
+import com.singtel.codeassignment.models.Parrot;
+import com.singtel.codeassignment.models.Rooster;
+
 public class ParrotTest {
 
 	@Test
 	public void testParrotLivingWithDogs() {
-		Parrot parrotThatLivesWithDogs = Parrot.getParrotThatLivesWith(new Dog());
+		Parrot parrotThatLivesWithDogs = new Parrot(new Dog());
 		assertEquals("Woof, woof", parrotThatLivesWithDogs.sing());
 	}
 
 	@Test
 	public void testParrotLivingWithCats() {
-		Parrot parrotThatLivesWithCats = Parrot.getParrotThatLivesWith(new Cat());
+		Parrot parrotThatLivesWithCats = new Parrot(new Cat());
 		assertEquals("Meow", parrotThatLivesWithCats.sing());
 	}
 
 	@Test
 	public void testParrotLivingWithRooster() {
-		Parrot parrotThatLivesWithRooster = Parrot.getParrotThatLivesWith(new Rooster());
+		Parrot parrotThatLivesWithRooster = new Parrot(new Rooster());
 		assertEquals("Cock-a-doodle-doo", parrotThatLivesWithRooster.sing());
 	}
 

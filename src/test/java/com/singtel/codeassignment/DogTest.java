@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import com.singtel.codeassignment.models.Dog;
+
 public class DogTest {
 	
 	private Dog dog;
@@ -20,11 +22,6 @@ public class DogTest {
 	@Test
 	public void testSing() {
 		assertEquals("Woof, woof", dog.sing());
-	}
-
-	@Test
-	public void testFly() {
-		assertEquals("I cannot fly", dog.fly());
 	}
 
 }
