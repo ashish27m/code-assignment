@@ -3,8 +3,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.singtel.codeassignment.Bird;
-
 public class BirdTest {
 
 	private Bird bird;
